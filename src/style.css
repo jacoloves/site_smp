@@ -1,0 +1,96 @@
+/* ---- head.js ---- */
+header {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  background-color: transparent;
+  align-items: center;
+  padding-left: 30px;
+}
+
+nav {
+    margin-left: auto;
+}
+
+.first {
+    background: #cc22a7;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    padding: 16px 15px 10px 15px;
+    list-style: none;   
+}
+
+.second {
+    background: #333;
+    text-align: center;
+    display: inline-block;
+    color: #fff;
+    padding: 10px 10px 10px 10px;
+    list-style: none;
+}
+
+/* ------------------------- */
+
+/* ---- firstsection.js ---- */
+
+.topsection {
+    background-image: url("./images/flooring.png");
+    background-size: cover;
+    width: 1450px;
+}
+
+.topcopy-font {
+    text-align: center;
+    color: #000000;
+}
+
+.topcopy-em1 {
+    font-size: 40px;
+}
+
+.topcopy-em2 {
+    font-size: 30px;
+}
+
+.topcopy-img {
+    text-align: center;
+}
+
+.topcopy-img1 {
+    margin-top: 30px;
+    widows: 400px;
+    height: 400px;
+}
+
+.topcopy-bottun {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.topcopy-scroll {
+    text-align: center;
+    color: #fff;
+    margin-top: 20px;
+}
+
+/* ------------------------- */
+
+/* ---- secondsection.js ---- */
+.seccopy-font1 {
+    text-align: center;
+    color: #000000;
+    margin-top: 100px;
+}
+
+.seccopy-em1 {   
+    font-size: 40px;
+}
+
+.seccopy-font2 {
+    text-align: center;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 30px;
+}
+/* ------------------------- */
