@@ -2,6 +2,7 @@ import React from 'react';
 
 import TopSection from './firstsection'
 import SecSection from './secondsection'
+import ThirdSection from './thirdsection'
 
 const ContainerMain = () => {
 
@@ -9,6 +10,7 @@ const ContainerMain = () => {
         <div class="container">
             <TopSection />
             <SecSection />
+            <ThirdSection />
         </div>
     );
 }
