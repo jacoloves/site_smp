@@ -159,8 +159,8 @@ nav {
 }
 
 .thirdcopy-font1 {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 50px;
+    padding-bottom: 50px;
     text-align: center;
     color: #fff;
 }
@@ -195,6 +195,25 @@ nav {
 
 .program-list-item-name {
     position: relative;
-    
+}
+
+.thirdcopy-video iframe{
+    width: 100%;
+}
+
+.thirdcopy-font2 {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    text-align: center;
+    color: #fff;
+}
+
+.thirdcopy-em2 {
+    font-size: 30px;
+}
+
+.sample_button２ {
+    margin-bottom: 40px;
+    text-align: center;
 }
 /* ------------------------- */
