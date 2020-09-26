@@ -1,6 +1,7 @@
 import React from 'react';
 import HeadMain from './head'
 import ContainerMain from './container'
+import FooterMain from './footer'
 
 
 const FitnessMainTop = () => {
@@ -8,6 +9,7 @@ const FitnessMainTop = () => {
         <div>
             <HeadMain />
             <ContainerMain />
+            <FooterMain />
         </div>
     );
 }
