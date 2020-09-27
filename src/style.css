@@ -1,33 +1,61 @@
 /* ---- head.js ---- */
 header {
-  display: flex;
   width: 100%;
-  height: 100px;
-  background-color: transparent;
-  align-items: center;
-  padding-left: 30px;
+  position: fixed;
+  top: 0;
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+  background: #fff;
+  height: 80px;
 }
 
-nav {
-    margin-left: auto;
+.header-logo {
+    background-size: 180px;
+    margin-left: 32px;
+    background: url(images/product-logo.png) no-repeat 20px center;
+    flex-grow: 2;
 }
 
-.first {
-    background: #cc22a7;
-    text-align: center;
-    display: inline-block;
+
+.clickme-pink {
+    opacity: 1;
+    background: linear-gradient(100.59deg, #FF77A8 0%, #D468A7 103.13%);
     color: #fff;
-    padding: 16px 15px 10px 15px;
-    list-style: none;   
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    letter-spacing: 0.1em;
+    text-decoration: none;
+    cursor: pointer;
+    line-height: 1; 
 }
 
-.second {
+.click-login {
     background: #333;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     text-align: center;
-    display: inline-block;
     color: #fff;
-    padding: 10px 10px 10px 10px;
-    list-style: none;
+    font-size: 10px;
+    width: 80px;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 0; 
+}
+
+.login-logo {
+    display: block;
+    margin: 0 auto;
+    width: 16px;
+    padding-bottom: 2px;
 }
 
 /* ------------------------- */
@@ -37,7 +65,6 @@ nav {
 .topsection {
     background-image: url("./images/flooring.png");
     background-size: cover;
-    width: 1450px;
 }
 
 .topcopy-font {
