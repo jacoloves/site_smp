@@ -60,11 +60,22 @@ header {
 
 /* ------------------------- */
 
+/* ---- container.js ---- */
+
+.container {
+    margin-top: 80px;
+    width: 100%;
+}
+
+/* ------------------------- */
+
+
 /* ---- firstsection.js ---- */
 
 .topsection {
     background-image: url("./images/flooring.png");
     background-size: cover;
+    
 }
 
 .topcopy-font {
